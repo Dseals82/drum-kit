@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text:400,700" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drum Kit</title>
+  </head>
+  <body>
+    <div align ="center" class="head">
+      <h1 id = "centerMe" align = "center">Virtual Drum Kit</h1>
+      <p id = "centerMe">Press Key to play</p>
+    </div>
+    <div class="container"id = 'keys'>
+
+      <div data-key = '65' class="beat">
+        <h2 class="letter">A</h2>
+        <span>Clap</span>
+      </div>
+      <div data-key = '83' class="beat">
+        <h2 class="letter">S</h2>
+        <span>HiHat</span>
+      </div>
+      <div data-key = '68' class="beat">
+        <h2 class="letter">D</h2>
+        <span>Kick</span>
+      </div>
+      <div data-key = '70' class="beat">
+        <h2 class="letter">F</h2>
+        <span>OpenHat</span>
+      </div>
+      <div data-key = '71' class="beat">
+        <h2 class="letter">G</h2>
+        <span>Boom</span>
+      </div>
+      <div data-key = '72' class="beat">
+        <h2 class="letter">H</h2>
+        <span>Cowbell</span>
+      </div>
+      <div data-key = '74' class="beat">
+        <h2 class="letter">J</h2>
+        <span>Snare</span>
+      </div>
+      <div data-key = '75' class="beat">
+        <h2 class="letter">K</h2>
+        <span>Tom</span>
+      </div>
+      <div data-key = '76' class="beat">
+        <h2 class="letter">L</h2>
+        <span>Cymbal</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/808_clap.wav"></audio>
+    <audio data-key="83" src="sounds/808_hihatclosed.wav"></audio>
+    <audio data-key="68" src="sounds/808_kick.wav"></audio>
+    <audio data-key="70" src="sounds/808_hihatopen.wav"></audio>
+    <audio data-key="71" src="sounds/808_boom.wav"></audio>
+    <audio data-key="72" src="sounds/808_cowbell.wav"></audio>
+    <audio data-key="74" src="sounds/808_snare.wav"></audio>
+    <audio data-key="75" src="sounds/909_tom.wav"></audio>
+    <audio data-key="76" src="sounds/808_cymbal.wav"></audio>
+
+    <script src= "script.js">
+    </script>
+  </body>
+</html>

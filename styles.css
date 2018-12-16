@@ -1,0 +1,59 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+}
+
+
+
+#keys {
+  margin: auto;
+  padding-top: 25%;
+  background-image: url('https://images.unsplash.com/photo-1537054388073-cf990597af2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+.beat {
+  background: rgba(0,0,0,0.4);
+  border: 3px solid black;
+  border-radius: 5px;
+  color: white;
+  margin: 1rem;
+  font-size: 1.5rem;
+  float: left;
+  padding: 1rem .5rem;
+  text-align: center;
+  height:7em;
+  width:7em;
+  transition: all 0.07s ease;
+  text-shadow: 0 0 5px black;
+}
+
+span {
+  color: #ffc600;
+}
+
+.animation {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+h1 {
+  height:  25px;
+  font-size: 85px;
+  filter: drop-shadow(0px 1px 4px black);
+  font-family: 'Markazi Text', serif;
+}
+
+ #centerMe {
+   margin: 0px;
+   padding: 0px;
+   height:0px;
+   color: white;
+ }
